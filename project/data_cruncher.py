@@ -16,7 +16,7 @@ def process_entity(entity: FormData):
 
 def call_model(entity: FormData):
     ''' if you want to read from csv '''
-    model = pickle.load(open('/Users/balraj/Documents/MSC/Project/SourceCode/skeleton_python_flask1/skeleton_python_flask/finalModel_fold1.dat',"rb"))
+    model = pickle.load(open('/Users/balraj/Documents/MSC/Project/SourceCode/stockforecast/skeleton_python_flask/finalModel_fold1.dat',"rb"))
     return model
     
 

@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 flask = "*"
 dataclasses-jsonschema = {extras = ["fast-validation"],version = "*"}
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.8"
